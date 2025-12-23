@@ -22,32 +22,7 @@ void API_Discord_SetAppID() {
     }
 #endif
     
-    switch(Engine.gameType) {
-        case GAME_SONIC1:
-            API_DISCORD_CLIENT_ID = 1375908654053593238; // Sonic 1 ID
-            break;
-        case GAME_SONIC2:
-            API_DISCORD_CLIENT_ID = 1375909546874114209; // Sonic 2 ID
-            break;
-        case GAME_SONIC3:
-            API_DISCORD_CLIENT_ID = 1375912145161683024; // Sonic 3 ID
-            break;
-        case GAME_SONICCD:
-            API_DISCORD_CLIENT_ID = 1375916146154410145; // Sonic CD ID
-            break;
-        case GAME_SONICNEXUS:
-            API_DISCORD_CLIENT_ID = 1375918952357826662; // Sonic Nexus ID
-            break;
-        case GAME_SONICDUELOFFATES:
-            API_DISCORD_CLIENT_ID = 1375919192959746128; // Duel of Fates ID
-            break;
-        case GAME_SONICESSENCE:
-            API_DISCORD_CLIENT_ID = 1383571039681777765; // Essence ID
-            break;
-        default:
-            API_DISCORD_CLIENT_ID = 1375887146057076747; // Default to V4+ ID
-            break;
-    }
+    API_DISCORD_CLIENT_ID = 1453058404892283130
 }
 
 void API_Discord_Update() // used in ProcessStage
