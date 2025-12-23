@@ -39,6 +39,7 @@ jobs:
       - name: Install dependencies
         run: |
           vcpkg install glew sdl2 libogg libtheora libvorbis curl --triplet=x86-windows-static
+          mkdir ./dependencies/all/discord_game_sdk/lib/x86/
           Copy-Item -Path ./dependencies/all/discord_game_sdk/lib/x86_64\* -Destination ./dependencies/all/discord_game_sdk/lib/x86/
       - name: Build RSDKv4
         run: |
@@ -158,3 +159,4 @@ jobs:
         with:
           name: v4-linux
           path: linux.tar.gz
+
