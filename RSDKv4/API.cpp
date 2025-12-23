@@ -22,7 +22,7 @@ void API_Discord_SetAppID() {
     }
 #endif
     
-    API_DISCORD_CLIENT_ID = 1453058404892283130
+    API_DISCORD_CLIENT_ID = 1453058404892283130;
 }
 
 void API_Discord_Update() // used in ProcessStage
